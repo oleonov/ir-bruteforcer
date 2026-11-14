@@ -1,0 +1,104 @@
+<resources>
+    <string name="app_name">IR Brute</string>
+
+    <!-- Device categories: full title (picker, top bar) and short title (LCD) -->
+    <string name="category_ac">Air conditioner</string>
+    <string name="category_ac_short">AIR CON</string>
+    <string name="category_tv">TV</string>
+    <string name="category_tv_short">TV</string>
+    <string name="category_projector">Projector</string>
+    <string name="category_projector_short">PROJECTOR</string>
+    <string name="category_audio">Audio / soundbar</string>
+    <string name="category_audio_short">AUDIO</string>
+    <string name="category_fan">Fan</string>
+    <string name="category_fan_short">FAN</string>
+    <string name="category_led">LED lights</string>
+    <string name="category_led_short">LED</string>
+    <string name="category_disc">Blu-ray / DVD</string>
+    <string name="category_disc_short">BLU-RAY</string>
+    <string name="category_monitor">Monitor</string>
+    <string name="category_monitor_short">MONITOR</string>
+
+    <!-- Button labels -->
+    <string name="label_off">OFF</string>
+    <string name="label_on">ON</string>
+    <string name="label_dry">DRY</string>
+    <string name="label_cool_max">COOL MAX</string>
+    <string name="label_heat_max">HEAT MAX</string>
+    <string name="label_cool_23">COOL 23°</string>
+    <string name="label_heat_23">HEAT 23°</string>
+    <string name="label_power">POWER</string>
+    <string name="label_mute">MUTE</string>
+    <string name="label_play">PLAY</string>
+    <string name="label_pause">PAUSE</string>
+    <string name="label_eject">EJECT</string>
+    <string name="label_ok">OK</string>
+    <string name="label_rotate">ROTATE</string>
+    <string name="label_mode">MODE</string>
+    <string name="label_timer">TIMER</string>
+    <string name="label_subtitles">SUBTITLES</string>
+    <string name="label_source">INPUT</string>
+    <string name="label_menu">MENU</string>
+    <string name="label_exit">EXIT</string>
+
+    <!-- Rocker labels -->
+    <!-- LCD names of icon-only buttons -->
+    <string name="name_vol_up">VOL +</string>
+    <string name="name_vol_dn">VOL -</string>
+    <string name="name_ch_next">CH +</string>
+    <string name="name_ch_prev">CH -</string>
+    <string name="name_prev">PREV</string>
+    <string name="name_next">NEXT</string>
+    <string name="name_speed_up">SPEED +</string>
+    <string name="name_speed_dn">SPEED -</string>
+    <string name="name_bright_up">BRIGHT +</string>
+    <string name="name_bright_dn">BRIGHT -</string>
+    <string name="name_red">RED</string>
+    <string name="name_green">GREEN</string>
+    <string name="name_blue">BLUE</string>
+    <string name="name_white">WHITE</string>
+    <string name="name_rewind">REWIND</string>
+    <string name="name_forward">FORWARD</string>
+
+    <string name="rocker_volume">VOL</string>
+    <string name="rocker_channel">CH</string>
+    <string name="rocker_speed">SPEED</string>
+    <string name="rocker_brightness">BRIGHT</string>
+
+    <!-- LCD -->
+    <string name="lcd_ready">ready</string>
+    <string name="lcd_hint">Press a button to start scanning</string>
+    <string name="lcd_cursor">▶ %1$d/%2$d</string>
+    <string name="lcd_from_start">from the start</string>
+    <string name="lcd_reset_from_start">FROM THE START</string>
+    <string name="lcd_scanning">SCANNING...</string>
+    <string name="lcd_loading">LOADING...</string>
+    <string name="lcd_error">ERROR</string>
+    <string name="lcd_no_emitter">NO IR EMITTER</string>
+    <string name="lcd_no_emitter_hint">this device has no IR port</string>
+    <plurals name="codes_in_library">
+        <item quantity="one">%d code in library</item>
+        <item quantity="other">%d codes in library</item>
+    </plurals>
+
+    <!-- Footer -->
+    <string name="footer_stop">STOP</string>
+    <string name="footer_worked">WORKED!</string>
+    <string name="footer_reset">RESET</string>
+    <string name="footer_speed">%s s/code</string>
+    <string name="footer_screen_on">screen stays on</string>
+
+    <!-- Picker -->
+    <string name="picker_title">SELECT DEVICE</string>
+
+    <!-- Messages -->
+    <string name="message_stopped">Stopped</string>
+    <string name="message_no_codes">No codes</string>
+    <string name="message_cursor_set">Cursor saved: %d</string>
+    <string name="message_cursor_reset">Cursor reset</string>
+    <string name="message_scan_done">Scan finished</string>
+    <plurals name="message_not_sent">
+        <item quantity="one">%d not sent</item>
+        <item quantity="other">%d not sent</item>
+    </plurals>
+</resources>

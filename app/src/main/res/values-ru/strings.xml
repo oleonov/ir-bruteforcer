@@ -1,0 +1,108 @@
+<resources>
+    <string name="app_name">IR Brute</string>
+
+    <!-- Device categories: full title (picker, top bar) and short title (LCD) -->
+    <string name="category_ac">Кондиционер</string>
+    <string name="category_ac_short">КОНДИЦИОНЕР</string>
+    <string name="category_tv">Телевизор</string>
+    <string name="category_tv_short">ТЕЛЕВИЗОР</string>
+    <string name="category_projector">Проектор</string>
+    <string name="category_projector_short">ПРОЕКТОР</string>
+    <string name="category_audio">Аудио / саундбар</string>
+    <string name="category_audio_short">АУДИО</string>
+    <string name="category_fan">Вентилятор</string>
+    <string name="category_fan_short">ВЕНТИЛЯТОР</string>
+    <string name="category_led">LED-подсветка</string>
+    <string name="category_led_short">LED</string>
+    <string name="category_disc">Blu-ray / DVD</string>
+    <string name="category_disc_short">BLU-RAY</string>
+    <string name="category_monitor">Монитор</string>
+    <string name="category_monitor_short">МОНИТОР</string>
+
+    <!-- Button labels -->
+    <string name="label_off">ВЫКЛ</string>
+    <string name="label_on">ВКЛ</string>
+    <string name="label_dry">ОСУШЕНИЕ</string>
+    <string name="label_cool_max">COOL MAX</string>
+    <string name="label_heat_max">HEAT MAX</string>
+    <string name="label_cool_23">COOL 23°</string>
+    <string name="label_heat_23">HEAT 23°</string>
+    <string name="label_power">POWER</string>
+    <string name="label_mute">MUTE</string>
+    <string name="label_play">PLAY</string>
+    <string name="label_pause">PAUSE</string>
+    <string name="label_eject">EJECT</string>
+    <string name="label_ok">OK</string>
+    <string name="label_rotate">ПОВОРОТ</string>
+    <string name="label_mode">РЕЖИМ</string>
+    <string name="label_timer">ТАЙМЕР</string>
+    <string name="label_subtitles">СУБТИТРЫ</string>
+    <string name="label_source">ВХОД</string>
+    <string name="label_menu">МЕНЮ</string>
+    <string name="label_exit">ВЫХОД</string>
+
+    <!-- Rocker labels -->
+    <!-- LCD names of icon-only buttons -->
+    <string name="name_vol_up">ГРОМК +</string>
+    <string name="name_vol_dn">ГРОМК -</string>
+    <string name="name_ch_next">КАНАЛ +</string>
+    <string name="name_ch_prev">КАНАЛ -</string>
+    <string name="name_prev">НАЗАД</string>
+    <string name="name_next">ДАЛЬШЕ</string>
+    <string name="name_speed_up">СКОР +</string>
+    <string name="name_speed_dn">СКОР -</string>
+    <string name="name_bright_up">ЯРК +</string>
+    <string name="name_bright_dn">ЯРК -</string>
+    <string name="name_red">КРАСНЫЙ</string>
+    <string name="name_green">ЗЕЛЁНЫЙ</string>
+    <string name="name_blue">СИНИЙ</string>
+    <string name="name_white">БЕЛЫЙ</string>
+    <string name="name_rewind">ПЕРЕМОТКА</string>
+    <string name="name_forward">ВПЕРЁД</string>
+
+    <string name="rocker_volume">VOL</string>
+    <string name="rocker_channel">CH</string>
+    <string name="rocker_speed">СКОРОСТЬ</string>
+    <string name="rocker_brightness">ЯРКОСТЬ</string>
+
+    <!-- LCD -->
+    <string name="lcd_ready">готов</string>
+    <string name="lcd_hint">Жми кнопку, начнётся перебор</string>
+    <string name="lcd_cursor">▶ %1$d/%2$d</string>
+    <string name="lcd_from_start">с начала</string>
+    <string name="lcd_reset_from_start">С НАЧАЛА</string>
+    <string name="lcd_scanning">ПЕРЕБОР...</string>
+    <string name="lcd_loading">ЗАГРУЗКА...</string>
+    <string name="lcd_error">ОШИБКА</string>
+    <string name="lcd_no_emitter">НЕТ ИК-ПЕРЕДАТЧИКА</string>
+    <string name="lcd_no_emitter_hint">на этом устройстве нет ИК-порта</string>
+    <plurals name="codes_in_library">
+        <item quantity="one">%d код в базе</item>
+        <item quantity="few">%d кода в базе</item>
+        <item quantity="many">%d кодов в базе</item>
+        <item quantity="other">%d кодов в базе</item>
+    </plurals>
+
+    <!-- Footer -->
+    <string name="footer_stop">СТОП</string>
+    <string name="footer_worked">СРАБОТАЛО</string>
+    <string name="footer_reset">СБРОС</string>
+    <string name="footer_speed">%s с/код</string>
+    <string name="footer_screen_on">экран не гаснет</string>
+
+    <!-- Picker -->
+    <string name="picker_title">ВЫБЕРИ УСТРОЙСТВО</string>
+
+    <!-- Messages -->
+    <string name="message_stopped">Остановлено</string>
+    <string name="message_no_codes">Нет кодов</string>
+    <string name="message_cursor_set">Курсор: %d</string>
+    <string name="message_cursor_reset">Курсор сброшен</string>
+    <string name="message_scan_done">Перебор окончен</string>
+    <plurals name="message_not_sent">
+        <item quantity="one">не отправлено: %d</item>
+        <item quantity="few">не отправлено: %d</item>
+        <item quantity="many">не отправлено: %d</item>
+        <item quantity="other">не отправлено: %d</item>
+    </plurals>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generated from the 12x12 pixel map of the IR-LED icon: 5-unit cells, grid origin (24,24). -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M49,29h5v5h-5zM54,29h5v5h-5zM34,34h5v5h-5zM69,34h5v5h-5zM39,39h5v5h-5zM64,39h5v5h-5zM49,44h5v5h-5zM54,44h5v5h-5zM44,49h5v5h-5zM49,49h5v5h-5zM54,49h5v5h-5zM59,49h5v5h-5zM49,54h5v5h-5zM54,54h5v5h-5zM59,54h5v5h-5zM49,59h5v5h-5zM54,59h5v5h-5zM59,59h5v5h-5zM39,64h5v5h-5zM44,64h5v5h-5zM49,64h5v5h-5zM54,64h5v5h-5zM59,64h5v5h-5zM64,64h5v5h-5zM44,69h5v5h-5zM59,69h5v5h-5zM44,74h5v5h-5zM59,74h5v5h-5z" />
+</vector>

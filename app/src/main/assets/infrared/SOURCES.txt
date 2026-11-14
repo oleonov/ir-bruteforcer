@@ -1,0 +1,5 @@
+Universal IR libraries copied verbatim from Momentum Firmware
+https://github.com/Next-Flip/Momentum-Firmware
+path: applications/main/infrared/resources/infrared/assets/
+commit: d3f89dfe2ef6b01839201598e9be1590cba80322 2026-08-18
+files: ac.ir tv.ir projectors.ir audio.ir fans.ir leds.ir bluray_dvd.ir monitor.ir

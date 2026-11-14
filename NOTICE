@@ -1,0 +1,28 @@
+IR Brute
+Copyright (C) 2026 the IR Brute contributors
+
+This program is free software: you can redistribute it and/or modify it under the
+terms of the GNU General Public License version 3 as published by the Free Software
+Foundation. It is distributed WITHOUT ANY WARRANTY; see the LICENSE file.
+
+Third-party material
+====================
+
+1. Flipper Zero firmware — infrared encoders
+   https://github.com/flipperdevices/flipperzero-firmware
+   Copyright (C) Flipper Devices Inc. License: GNU GPL v3.
+   The encoders in app/src/main/java/com/pandorika/irbruteforcer/ir/protocol/ are a
+   Kotlin port of lib/infrared/encoder_decoder/* (timings, protocol variants and
+   bit encoding). The .ir library parser follows the Flipper file format and its
+   message validity rules.
+
+2. Momentum Firmware — universal IR libraries
+   https://github.com/Next-Flip/Momentum-Firmware
+   License: GNU GPL v3.
+   app/src/main/assets/infrared/*.ir are copied verbatim from
+   applications/main/infrared/resources/infrared/assets/ (commit and file list in
+   app/src/main/assets/infrared/SOURCES.txt).
+
+3. Press Start 2P font
+   Copyright 2012 The Press Start 2P Project Authors, Reserved Font Name "Press Start 2P".
+   License: SIL Open Font License 1.1 (app/src/main/assets/licenses/PressStart2P-OFL.txt).
